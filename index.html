@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paws 'n Claws</title>
+    <link rel="stylesheet" href = "style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,700;0,800;1,200;1,400;1,500&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+
+</head>
+<body>
+
+    <div class="navbar">
+
+         
+    <div class="logo">
+        <a href="index.html" id="logo"><img src="Images/123.png" > </fieldset> </a>
+
+    </div>
+
+        <nav>
+
+            <div class="nav-links" id="navlinks">     
+
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#home" >HOME</a></li>
+                    <li><a href="#dogs">DOGS</a></li>   
+                    <li><a href="#cats">CATS</a></li>
+                    <li><a href="#birds">BIRDS</a></li>
+                    <!-- <li><a href="#blog">BLOG</a></li> -->
+                    <li><a href="#contact">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+
+        </nav>
+    </div>
+
+   
+ 
+ <section class = "header" id ="home">       
+
+<div class="text-box">
+    <h1>Everything You Need In One Place</h1>
+    <!-- <a href="" class="hero-btn">Vist Us To Know More</a> -->
+</div>
+
+    </section>
+
+    <section class="dog" id = "dogs">
+        <div class="all">
+
+            <h1>DOGS</h1>
+        <div class = "button">
+            <a href="" class="hero-btn"> EXPLORE DOGS</a>
+      
+
+        </div>
+
+        </div>
+       
+    </section>
+
+    <section class="cat" id="cats">
+
+        <div class="all">
+            <h1>CATS</h1>
+        <div class = "button">
+            <a href="" class="hero-btn"> EXPLORE CATS</a>
+
+        </div>
+        </div>
+   
+    </section>
+
+    <section class="birds" id="birds">
+
+        <div class="all">
+            <h1>BIRDS 'N PARROTS</h1>
+        <div class = "button">
+            <a href="" class="hero-btn"> EXPLORE BIRDS</a>
+
+        </div>
+        </div>       
+    </section>
+
+    <footer class="footer" id= "contact">
+        <div class="container">
+            <div class="about">
+                <h2>
+                    
+                     Business</h2>
+                <p>
+                    Websites are a key to grow your business . To build awesome websites for your business contact me 
+            
+                </p>
+                <p>
+                    Email : sharu2903@gmail.com
+                </p>
+            </div>
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <p>
+                    Stay updated with our new and latest news
+                </p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"> <span><i class="fas chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram">
+                <h2>Instagram</h2>
+            </div>
+            <div class="follow">
+                <h2>Follow Me</h2>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
